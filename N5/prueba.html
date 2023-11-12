@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InuNihongo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <!-- Agrega el icono del navegador -->
+     <link rel="icon" href="img/6.png" type="image/x-icon">
+     <link rel="shortcut icon" href="img/6.png" type="image/x-icon">
+     <link rel="icon" href="img/6.png" type="image/png">
+    <link rel="stylesheet" href="../estilo.css">
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">InuNihongo</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="../inicio.html">Inicio</a></li>
+        <li><a href="#">Introducción al japones</a></li>
+        <li><a href="#">Hiragana</a></li>
+        <li><a href="#">Katakana</a></li>
+        <li><a href="#">Kanji</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+                aria-expanded="false">Gramatica<span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">N5</a></li>
+            <li><a href="#">N4</a></li>
+            <li><a href="#">N3</a></li>
+            <li><a href="#">N2</a></li>
+            <li><a href="#">N1</a></li>
+          </ul>
+          <li><a href="#">Soporte</a></li>
+          <li><a href="#">Acerca De</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="#">です/じゃないです/ですか</a></p>
+      <p><a href="#">の</a></p>
+      <p><a href="#"></a></p>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <center><h1><font color="green"><b>です　/　じゃないです　/　ですか</b></font></h1></center>
+      <div class="container mt-3">
+        <p class="justificado">Antes de empezar con el tema es necesario conocer la particula <ruby><font color="red">は</font><rt>HA</rt></ruby> que en este caso se pronuncia como "<font color="red">WA</font>", esta particula marca el sujeto o tema del que se quiere hablar y se coloca despues de estos.</p> 
+          <p class="justificado">En japones para poder decir que A es B se utiliza la siguiente estructura: A<font color="red">は</font>Ｂ<font color="red">です。</font></p>
+          <p class="justificado">この<ruby>動物<rt>どうぶつ</rt></ruby><font color="red">は</font><ruby>犬<rt>いぬ</rt></ruby><font color="red">です</font>。<font color="blue">Este animal es un perro.</font></p>
+          <p class="justificado">Si queremos decir que A no es B es tan sencillo como agregar <font color="red">じゃない</font> antes del <font color="red">です。</font></p>
+          <p class="justificado">その<ruby>動物<rt>どうぶつ</rt></ruby><font color="red">は</font><ruby>犬<rt>いぬ</rt></ruby><font color="red">じゃないです</font>。<font color="blue">Ese animal no es un perro.</font></p>
+          <p class="justificado">Para hacer preguntas en japonés hay que agregar la partícula <font color="red">か</font> al final de la oración, esta partícula fungirá como un signo de interrogación.</p>
+          <p class="justificado">あの<ruby>動物<rt>どうぶつ</rt></ruby><font color="red">は</font><ruby>犬<rt>いぬ</rt></ruby>です<font color="red">か</font> <font color="blue">¿Aquel animal es un perro?</font></p>
+          <p class="justificado">Si quieres preguntar sobre un tema que desconozcas puedes seguir la siguiente estructura ”Cosa que quieras saber”は<font color="red">なん</font>です<font color="red">か</font>。</p>
+          <p class="justificado">この<ruby>動物<rt>どうぶつ</rt></ruby>は<ruby><font color="red">何</font><rt>なん</rt></ruby>です<font color="red">か</font>。<font color="blue">¿Qué es este animal?</font></p>    
+        </div>        
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p>ADS</p>
+      </div>
+      <div class="well">
+        <p>ADS</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Akita Inc.</p>
+</footer>
+
+</body>
+</html>
